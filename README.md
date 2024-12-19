@@ -32,6 +32,6 @@ sudo apt install ffmpeg
 ***
 
 ## Usage and Limits :
-* Currently sopports MP4 files only, other file types will be added soon
+* Works with all video types ( mp4 , mpg , mpeg , mov , mkv )
 * to use it, copy the file to the directory of your videos and run it
 * soon directory input system will be added.
