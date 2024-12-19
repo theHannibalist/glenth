@@ -6,7 +6,7 @@ def run_parser() -> dict:
         description='glenth helps you find the total length of videos in a folder.' ,
     )
 
-    parser.add_argument ('-t', '--type', default='all', choices=['mpg', 'mpeg', 'mp4', 'mov', 'mkv'], help='Choose specific file type (default : all)')
+    parser.add_argument ('-t', '--type', default='all', choices=['mpg', 'mpeg', 'mp4', 'mov', 'mkv', 'all'], help='Choose specific file type (default : all)')
     parser.add_argument ('-d', '--target-dir', default='.', help='choose a directory (default : current directory)')
 
     args = parser.parse_args()
