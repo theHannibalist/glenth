@@ -37,3 +37,6 @@ sudo apt install ffmpeg
 ./main.py -d # choose a directory to scan (default : current directory)
 ./main.py -t # choose a file type [mpg, mpeg, mov, mp4, mkv, all] (default : all)
 ```
+
+Have fun!
+Let me know if you have any problems.
