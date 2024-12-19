@@ -31,7 +31,9 @@ sudo apt install ffmpeg
 
 ***
 
-## Usage and Limits :
-* Works with all video types ( mp4 , mpg , mpeg , mov , mkv )
-* to use it, copy the file to the directory of your videos and run it
-* soon directory input system will be added.
+## Usage:
+```bash
+./main.py -h # for help 
+./main.py -d # choose a directory to scan (default : current directory)
+./main.py -t # choose a file type [mpg, mpeg, mov, mp4, mkv, all] (default : all)
+```
