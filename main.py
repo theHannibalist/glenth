@@ -1,17 +1,15 @@
 #!/usr/bin/env python
+from modules import cli_system, generate_list, get_length
+print ("Get Length for Linux, based on ffmeg, Developed by Lenesis\nhttps://github.com/lenesis")
 
-print ("Get Length for Linux, based on ffmeg, Developed by Lenesis")
+# Starts the commandline interface and gets the arguments
+args = cli_system.run_parser()
 
-from os import system as term
+# Generates a temporary file containing files list and their length
+generate_list.scan(args['target'], args['type'], args['all'])
 
-term('ls *.mp4 *.mov *.avi *.mkv *.mpg *.mpeg 2> /dev/null 2> /dev/null | xargs -I file ffprobe -i file -show_entries format=duration -v quiet -of csv="p=0" > .list.tmp')
-with open('.list.tmp') as f:
-    i = 0
-    for line in f:
-        i += float(line)
+# Reads the temporary file list and calculates the total length
+get_length.show_final()
 
-    hr = int(float(i / 60 / 60))
-    mn = int(( i /60) % 60)
-    print (f"total {hr} hours and {mn} minutes")
-term ('rm .list.tmp')
+
 
