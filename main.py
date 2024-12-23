@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from modules import cli_system, generate_list, get_length
-print ("Get Length for Linux, based on ffmeg, Developed by Lenesis\nhttps://github.com/lenesis")
+print ("Get Length for Linux, based on ffmeg, Developed by Hannibal\nhttps://github.com/theHannibalist")
 
 # Starts the commandline interface and gets the arguments
 args = cli_system.run_parser()
