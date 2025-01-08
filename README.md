@@ -37,6 +37,13 @@ sudo apt install ffmpeg
 ./main.py -d # choose a directory to scan (default : current directory)
 ./main.py -t # choose a file type [mpg, mpeg, mov, mp4, mkv, all] (default : all)
 ```
+## Installing systemwide :
+
+You can install `glenth` systemwide , and it's easy!
+
+```bash
+sudo ln -s PATH_TO_GLENTH/main.py /usr/bin/glenth
+```
 
 Have fun!
 Let me know if you have any problems.
