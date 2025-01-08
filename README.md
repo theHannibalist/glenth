@@ -42,8 +42,8 @@ sudo apt install ffmpeg
 You can install `glenth` systemwide , and it's easy!
 
 ```bash
-sudo ln -s PATH_TO_GLENTH/main.py /usr/bin/glenth
+sudo ln -s PATH_TO_GLENTH/main.py /usr/bin/glenth ; sudo chmod +x /usr/bin/glenth
 ```
-
+###
 Have fun!
 Let me know if you have any problems.
