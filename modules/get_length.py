@@ -8,5 +8,5 @@ def show_final():
 
         hr = int(float(i / 60 / 60))
         mn = int(( i /60) % 60)
-        print (f"total {hr} hours and {mn} minutes")
+        print (f"total\033[33m {hr} hours\033[39m and\033[33m {mn} minutes\033[39m")
         term ('rm .list.tmp')

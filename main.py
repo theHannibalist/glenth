@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from modules import cli_system, generate_list, get_length
-print ("Get Length for Linux, based on ffmeg, Developed by Hannibal\nhttps://github.com/theHannibalist")
+print ("\033[36mGet Length\033[39m for \033[46m\033[30mLinux\033[39m\033[40m, based on \033[46m\033[30mffmpeg\033[39m\033[40m\nDeveloped by \033[32mHannibal\n\n\033[39m===[ \033[36mhttps://github.com/theHannibalist\033[39m ]===\n")
 
 # Starts the commandline interface and gets the arguments
 args = cli_system.run_parser()
