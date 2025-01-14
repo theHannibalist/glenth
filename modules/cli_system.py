@@ -13,6 +13,7 @@ def run_parser() -> dict:
     all = True
     if args.type != 'all':
         all = False
-    return {'type' : args.type, 'target' : args.target_dir, 'all' : all}
+
+    return {'type' : args.type, 'target' : str(args.target_dir), 'all' : all}
 
 
