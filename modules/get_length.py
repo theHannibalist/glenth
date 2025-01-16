@@ -10,7 +10,7 @@ def show_final():
                 with open ('.timelist.tmp') as t:
                     for time in t :
                         i += float(time)
-                        print (f'\033[33m*\033[39m {item} ===> \033[33m{conv.ert(time)['hr']} hours \033[39mand \033[33m{conv.ert(time)['mn']}\033[39m\n')
+                        print (f'\033[33m*\033[39m {item} ===> \033[33m{conv.ert(time)['hr']} hours \033[39mand \033[33m{conv.ert(time)['mn']} minutes\033[39m\n')
         
             
 
