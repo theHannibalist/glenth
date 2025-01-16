@@ -6,7 +6,7 @@ def show_final():
         for line in f:
             # print (line.strip())
             for item in line.split():
-                term (f'ffprobe -i {item} -show_entries format=duration -v quiet -of csv="p=0" >> .timelist.tmp')
+                term (f'ffprobe -i {item} -show_entries format=duration -v quiet -of csv="p=0" > .timelist.tmp')
                 with open ('.timelist.tmp') as t:
                     for time in t :
                         i += float(time)
