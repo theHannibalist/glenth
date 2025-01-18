@@ -15,5 +15,5 @@ def show_final():
             
 
 
-        print (f"total:\n\033[33m {conv.ert(i)['hr']} hours\033[39m and\033[33m {conv.ert(i)['mn']} minutes\033[39m")
+        print (f"total:\n\033[32m {conv.ert(i)['hr']} hours\033[39m and\033[32m {conv.ert(i)['mn']} minutes\033[39m")
         term ('rm .lst.tmp .timelist.tmp')
