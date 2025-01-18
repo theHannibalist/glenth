@@ -6,7 +6,7 @@ print ("\033[36mGet Length\033[39m for \033[46m\033[30mLinux\033[39m\033[40m, ba
 args = cli_system.run_parser()
 
 # Generates a temporary file containing files list and their length
-generate_list.scan(args['target'], args['type'], args['all'])
+generate_list.scan(args['target'], args['type'], args['all'], args['subs'])
 
 # Reads the temporary file list and calculates the total length
 get_length.show_final()
