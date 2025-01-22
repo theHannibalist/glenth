@@ -1,3 +1,9 @@
+# Attention :
+glenth is a project I loved so much , but I might not continue working on it,<br>
+I'm planning to fully re-write it for the sake of better speed and less bugs ...
+
+
+
 # Glenth
 ##### GEt the LENgTH !
 I've been a Linux user for a long time, and the problem I always had was that I could not get the total length of videos I had in a folder.
