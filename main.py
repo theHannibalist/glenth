@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from modules import cli_system, generate_list, get_length
 print ("\033[36mGet Length\033[39m for \033[46m\033[30mLinux\033[39m\033[40m, based on \033[46m\033[30mffmpeg\033[39m\033[40m\nDeveloped by \033[32mHannibal\n\n\033[39m===[ \033[36mhttps://github.com/theHannibalist\033[39m ]===\n")
 

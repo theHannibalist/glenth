@@ -9,7 +9,9 @@ def show_final():
             with open ('.timelist.tmp') as t:
                 for time in t :
                     i += float(time)
-                    print (f'\033[33m*\033[39m {line} ===> \033[33m{conv.ert(time)['hr']} hours \033[39mand \033[33m{conv.ert(time)['mn']} minutes\033[39m\n')
+                    hrs = conv.ert(time)['hr']
+                    mns = conv.ert(time)['mn']
+                    print (f'\033[33m*\033[39m {line} ===> \033[33m{hrs} hours \033[39mand \033[33m{mns} minutes\033[39m\n')
         
             # for item in line.split():
                 # print (item)
@@ -22,6 +24,7 @@ def show_final():
         
             
 
-
-        print (f"total:\n\033[32m {conv.ert(i)['hr']} hours\033[39m and\033[32m {conv.ert(i)['mn']} minutes\033[39m")
+        hrs = conv.ert(i)['hr']
+        mns = conv.ert(i)['mn']
+        print (f"total:\n\033[32m {hrs} hours\033[39m and\033[32m {mns} minutes\033[39m")
         term ('rm .lst.tmp .timelist.tmp .dirlist.tmp 2> /dev/null')
