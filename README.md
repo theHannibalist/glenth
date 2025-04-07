@@ -1,6 +1,6 @@
 # Attention :
-glenth is a project I loved so much , but I might not continue working on it,<br>
-I'm planning to fully re-write it for the sake of better speed and less bugs ...
+glenth is a project I loved so much , but it clearly it has no clear code in it ! it's just shell script run by python in a messed up way ! <br>
+I have entirely rewritten this little guy for a better performance and quality. check it out : https://github.com/theHannibalist/glenth2
 
 
 
